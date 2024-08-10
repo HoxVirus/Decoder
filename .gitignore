@@ -25,7 +25,7 @@ def verify_launch_code():
     entered_code = input("Please enter the launch code to start: ")
     if entered_code == launch_code:
         print("Launch code accepted. Starting the program...")
-        time.sleep(4)
+        time.sleep(4) # waits 4 seconds before type the codes
         return True
     else:
         print("Incorrect launch code. Exiting program.")
